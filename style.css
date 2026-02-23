@@ -172,29 +172,6 @@ a {
   max-width: 900px;
   margin: 0 auto;
   width: 100%;
-  display: flex;
-  align-items: center;
-  gap: 60px;
-}
-
-.hero-text {
-  flex: 1;
-  min-width: 0;
-}
-
-.hero-photo-wrap {
-  flex-shrink: 0;
-}
-
-.hero-photo {
-  width: 220px;
-  height: 220px;
-  border-radius: 50%;
-  object-fit: cover;
-  object-position: center top;
-  border: 3px solid rgba(152, 216, 200, 0.5);
-  box-shadow: 0 0 0 8px rgba(152, 216, 200, 0.1), 0 20px 60px rgba(0, 0, 0, 0.4);
-  display: block;
 }
 
 .hero-greeting {
@@ -510,11 +487,6 @@ footer {
 
   .hero-tags {
     justify-content: center;
-  }
-
-  .hero-photo {
-    width: 150px;
-    height: 150px;
   }
 
   .section {
